@@ -4,7 +4,7 @@ const CategorySection = styled.section`
   font-size: 24px;
   > ul{
     display:flex;
-    background:#c4c4c4;
+    background:#a3c4f3;
     > li {
       width: 50%; 
       text-align:center;
@@ -14,7 +14,7 @@ const CategorySection = styled.section`
         content: '';
         display:block; 
         height: 3px;
-        background:#333;
+        background:#fec5bb;
         position:absolute;
         bottom:0;
         width: 100%;
