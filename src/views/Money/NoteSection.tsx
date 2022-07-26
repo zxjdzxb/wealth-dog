@@ -1,22 +1,12 @@
 import styled from 'styled-components';
-import React, {useRef,} from 'react';
+import React, {ChangeEventHandler, useRef} from 'react';
+import {Input} from '../../components/Input';
 
 const Wrapper = styled.section`
   background:#edede9;
   padding: 0 16px;
   font-size: 14px;
-  > label {
-    display:flex;
-    align-items: center;
-    > span { margin-right: 16px; white-space: nowrap; }
-    > input {
-      display:block;
-      width: 100%;
-      height: 54px;
-      background:none;
-      border: none;
-    }
-  }
+  
 `;
 
 type Props = {
