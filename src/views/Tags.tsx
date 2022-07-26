@@ -6,12 +6,11 @@ import Icon from '../components/Icon';
 import {Link} from 'react-router-dom';
 
 const TagList = styled.ol`
-  font-size: 16px; 
-  background:white;
+  font-size: 16px;
   > li{
     //#e5e5e7
     background:#caf0f8;
-    border-bottom: 1px solid #ade8f4;
+    border-bottom: 1px solid #98f5e1;
     line-height: 20px;
     margin-left: 0;
     > a{
