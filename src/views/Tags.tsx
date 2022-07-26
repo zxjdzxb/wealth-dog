@@ -4,6 +4,8 @@ import {useTags} from '../useTags';
 import styled from 'styled-components';
 import Icon from '../components/Icon';
 import {Link} from 'react-router-dom';
+import {Center} from 'components/Center';
+import {Space} from '../components/Space';
 
 const TagList = styled.ol`
   font-size: 16px;
@@ -27,15 +29,7 @@ const Button = styled.button`
   background: #00b4d8; border-radius: 4px;
   color: white;
 `;
-const Center = styled.div`
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-`;
-const Space = styled.div`
-  height: 16px;
-`
+
 
 function Tags() {
   const {tags, } = useTags();
