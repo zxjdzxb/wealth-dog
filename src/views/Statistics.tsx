@@ -10,6 +10,7 @@ const CategoryWrapper = styled.div`
  
 `;
 const Header = styled.h3`
+  background: #8eecf5;
   font-size: 18px;
   line-height: 20px;
   padding: 10px 16px;
@@ -18,14 +19,16 @@ const Header = styled.h3`
 const Item = styled.div`
   display:flex;
   justify-content: space-between;
-  background: white;
   font-size: 18px;
   line-height: 20px;
   padding: 10px 16px;
+  background:#caf0f8;
+  border-bottom: 1px solid #98f5e1;
   > .note{
     margin-right: auto;
     margin-left: 16px;
-    color: #999;
+    color: #a5a58d;
+    
   }
 `;
 
