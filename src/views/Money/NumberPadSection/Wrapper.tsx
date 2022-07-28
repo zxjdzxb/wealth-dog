@@ -46,6 +46,7 @@ const Wrapper = styled.section`
         background:#0096c7;
       }
     }
+    
   }
 `;
 
